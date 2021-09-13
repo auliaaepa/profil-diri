@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Diri Aulia</title>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+        
+        body {
+            color: white;
+            background-color: #222222;
+            max-width: 760px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        h1 {
+            color: #0FDFFF;
+        }
+
+        h1 span {
+            color: white;
+        }
+
+        section {
+            margin: 20px;            
+        }
+        
+        table {
+            width: 100%;
+            border: 1px solid white;
+        }
+
+        th, 
+        td {
+            text-align: left; 
+            border: 1px solid white;
+            padding: 5px;
+        }
+        
+        .photo {
+            width: 120px;
+            padding: initial;
+        }
+
+        img {
+            width: 110px;
+            display: block;
+            margin: 0px auto;
+        }
+        
+        #pribadi th,
+        #kontak th {
+            width: 30%;
+        }
+
+        .title {
+            width: initial;
+            color: #222222;
+            background-color: white;
+            font-size: 20px;            
+        }
+
+        tr:nth-child(even){
+            color:#0FDFFF;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            font-weight: bolder;
+        }
+
+        td .even{
+            color: #0FDFFF;
+        }
+
+        td .odd {
+            color: white;
+        }
+
+        #foot {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1 align="center" >PROFIL <span >SAYA</span></h1>
+            <hr width="90px" color="white" noshade>
+        </div>
+    </header>
+
+    <main>
+        <section id="pribadi">
+            <table >
+                <tr >
+                    <th class="title" colspan="3"><center>Data Diri</center></th>
+                </tr>
+                <tr >
+                    <th >Nama Lengkap</th>
+                    <td >Aulia Eka Putri Aryani</td>
+                    <td class="photo" rowspan="5">
+                        <img src="assets/image/foto-crop.jpg" alt="foto">
+                    </td>
+                </tr>
+                <tr >
+                    <th >Nama Panggilan</th>
+                    <td >Aulia</td>
+                </tr>
+                <tr >
+                    <th >Tempat, Tanggal Lahir</th>
+                    <td >Wonogiri, 14 Agustus 2002</td>
+                </tr>
+                <tr >
+                    <th >Jenis Kelamin</th>
+                    <td >Perempuan</td>
+                </tr>
+                <tr >
+                    <th >Agama</th>
+                    <td >Islam</td>
+                </tr>
+                <tr >
+                    <th >Golongan Darah</th>
+                    <td colspan="2">AB+</td>
+                </tr>
+                <tr >
+                    <th >Alamat</th>
+                    <td colspan="2">Taman Aloha D4/1, Sidoarjo</td>
+                </tr>
+                <tr >
+                    <th >Status</th>
+                    <td colspan="2">Belum Menikah</td>
+                </tr>
+                <tr >
+                    <th >Pekerjaan</th>
+                    <td colspan="2">Mahasiswa</td>
+                </tr>
+                <tr >
+                    <th >Kewarganegaraan</th>
+                    <td colspan="2">Indonesia</td>
+                </tr>
+            </table>
+        </section>
+        <section id="pendidikan">
+            <table>
+                <tr >
+                    <th class="title" colspan="4"><center>Riwayat Pendidikan</center></th>
+                </tr>
+                <tr>
+                    <th><center>Tahun</center></th>
+                    <th><center>Jenjang Pendidikan</center></th>
+                    <th><center>Institusi</center></th>
+                    <th><center>Jurusan</center></th>
+                </tr>
+                <tr>
+                    <td><center>2006-2008</center></td>
+                    <td><center>TK</center></td>
+                    <td>PG/TK Al-Amin</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td><center>2008-2014</center></td>
+                    <td><center>SD</center></td>
+                    <td>SD Muhammadiyah 3 Taman</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td><center>2014-2016</center></td>
+                    <td><center>SMP</center></td>
+                    <td>SMP Negeri 3 Sidoarjo</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td><center>2016-2019</center></td>
+                    <td><center>SMA</center></td>
+                    <td>SMA Negeri 1 Sidoarjo</td>
+                    <td>IPA</td>
+                </tr>
+                <tr>
+                    <td><center>2019-Sekarang</center></td>
+                    <td><center>S1</center></td>
+                    <td>Institut Teknologi Sepuluh November</td>
+                    <td>Teknik Informatika</td>
+                </tr>
+            </table>
+        </section>
+        <section id="kontak">
+            <table>
+                <tr >
+                    <th class="title" colspan="4"><center>Informasi Kontak</center></th>
+                </tr>
+                <tr>
+                    <th>No. Telp</th>
+                    <td><a class="even" href="tel:+6281233110964">+62 812-3311-0964</a></td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td><a class="odd" href="mailto:auliaepa@gmail.com">auliaepa@gmail.com</a></td>
+                </tr>
+                <tr>
+                    <th>Line</th>
+                    <td><a class="even" href="https://line.me/ti/p/~auliaseo">auliaseo</a></td>
+                </tr>
+                <tr>
+                    <th>Instagram</th>
+                    <td><a class="odd" href="https://www.instagram.com/auliaaepa/">@auliaaepa</a></td>
+                </tr>
+                <tr>
+                    <th>Twitter</th>
+                    <td><a class="even" href="https://twitter.com/auliaaepa">@auliaaepa</a></td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <section id="foot">
+            <hr color="white" noshade>
+            <p align="center">
+                <small>&#169; AuliAAEPA 2021</small>
+            </p>
+        </section>
+    </footer>
+</body>
+</html>

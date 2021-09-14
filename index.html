@@ -13,9 +13,25 @@
         body {
             color: white;
             background-color: #222222;
+            min-width: 450px;
             max-width: 760px;
             margin-right: auto;
             margin-left: auto;
+        }
+
+        header {
+            display: inline;
+        }
+
+        nav {
+            background-color: #222222;
+            padding: 5px;
+            position: sticky;
+            top: 0px;
+        }
+
+        #logo {
+            margin: 0px 20px;
         }
 
         h1 {
@@ -30,6 +46,9 @@
             margin: 20px;            
         }
         
+        #head {
+            margin: 20px 0px;
+        }
         table {
             width: 100%;
             border: 1px solid white;
@@ -81,6 +100,7 @@
             color: #0FDFFF;
         }
 
+        a,
         td .odd {
             color: white;
         }
@@ -92,13 +112,16 @@
 </head>
 <body>
     <header>
-        <div>
-            <h1 align="center" >PROFIL <span >SAYA</span></h1>
-            <hr width="90px" color="white" noshade>
-        </div>
+        <nav>
+            <div id="logo">
+                <p><a href=#><b>AuliAAEPA</b></a></p>                
+            </div>
+        </nav>
     </header>
 
     <main>
+        <h1 align="center" >PROFIL <span >SAYA</span></h1>
+        <hr width="90px" color="white" noshade>
         <section id="pribadi">
             <table >
                 <tr >
@@ -146,6 +169,10 @@
                 <tr >
                     <th >Kewarganegaraan</th>
                     <td colspan="2">Indonesia</td>
+                </tr>
+                <tr >
+                    <th >Hobi</th>
+                    <td colspan="2">Menonton dan membaca</td>
                 </tr>
             </table>
         </section>
